@@ -1,0 +1,54 @@
+<body>
+    <section>
+        <div>
+        <a href="oppgave2.html">Tilbake til forsiden</a>
+    </div>
+    <div class="bestill">
+    <form action="https://formsubmit.co/splintexplays@gmail.com" method="POST">
+        <select name="VelgMat" id="" required>
+        <option value="">Hva ønsker du å spise?</option>
+        <option value="ostpizza">Pizza (kun ost)</option>
+        <option value="pepperoni">Pepperonipizza</option>
+        <option value="Kyllingpizza">Kyllingpizza</option>
+        <option value="Kebabtallerken">Kebabtallerken</option>
+        <option value="Kebab i pita">Kebab i pita</option>
+        </select>
+        <br>
+        <label for="">Drikke:</label>
+        <br>
+        <input type="radio"><span>Cola</span>
+        <input type="radio"><span>Sprite</span>
+        <input type="radio"><span>Fanta</span>
+        <input type="radio"><span>Vann</span>
+        <input type="radio"><span>Lemonade</span>
+        <input type="radio"><span>Ingenting</span>
+        <br>
+        <label for="">Adresse:</label>
+        <br>
+        <input type="text" required>
+        <br>
+        <button type="submit">Videre til betaling</button>
+    </form>
+    </div>
+    </section>
+</body>
+<style>
+    body {
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        align-items: center;
+        background-color: beige;
+    }
+    div {
+        text-align: center;
+        gap: 0.5rem;
+    }
+    .bestill {
+        padding-top: 1rem;
+    }
+    a {
+        color: #3f3f3f;
+        font-size: 2rem;
+    }
+</style>
